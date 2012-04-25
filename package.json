@@ -1,0 +1,22 @@
+{
+  "name": "winston-cube",
+  "description": "A Cube transport for winston",
+  "version": "0.0.1",
+  "author": "Krispin Schulz <krispinone@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/kr1sp1n/winston-cube.git" 
+  },
+  "keywords": ["logging", "sysadmin", "tools", "winston", "cube", "metrics", "measure", "stats", "statistics"],
+  "dependencies": {
+    "winston": "0.5.x",
+    "cube": "git://github.com/square/cube.git"
+  },
+  "devDependencies": {
+    "vows": "0.5.x",
+    "colors": "0.5.x"
+  },
+  "main": "./lib/winston-cube",
+  "scripts": { "test": "vows --spec" },
+  "engines": { "node": ">= 0.4.0" }
+}
